@@ -1,0 +1,67 @@
+/***************** General *******************/
+body {
+	text-align: center;
+}
+
+h2 {
+	margin: 30px auto;
+}
+
+.float_left {
+	float: left;
+	text-align: right;
+}
+
+.float_right {
+	float: right;
+	text-align: left;
+}
+
+/************* Header *************/
+
+header {
+	background-color: #c68c53;
+}
+
+/************* Logo **************/
+.r_logo {
+	color : green;
+}
+
+.three_logo {
+	color: blue;
+}
+
+/****************** Text for the bottle ******************/
+.bottle_container {
+	font-size: 22px;
+	padding: 5px 250px;
+
+}
+
+/****************** Arrows ******************/
+.left_down_arrow img {
+	-ms-transform: rotate(225deg); /* IE 9 */
+    -webkit-transform: rotate(225deg); /* Chrome, Safari, Opera */
+    transform: rotate(225deg);
+}
+
+.right_down_arrow img{
+	-ms-transform: rotate(135deg); /* IE 9 */
+    -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
+    transform: rotate(135deg);
+}
+
+/* Spacing between the two transformed arrows */
+.left_down_arrow, .right_down_arrow {
+	padding: 0 50px;
+}
+
+/*************** Footer *****************/
+footer {
+
+}
+
+
+
+
