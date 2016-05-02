@@ -1,0 +1,12 @@
+body {
+	text-align: center;
+}
+
+.content_row {
+	height: 80vh;
+}
+
+.center_vert {
+	line-height: 80vh;
+	margin: 0;
+}

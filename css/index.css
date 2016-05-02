@@ -17,21 +17,6 @@ h2 {
 	text-align: left;
 }
 
-/************* Header *************/
-
-header {
-	background-color: #c68c53;
-}
-
-/************* Logo **************/
-.r_logo {
-	color : green;
-}
-
-.three_logo {
-	color: blue;
-}
-
 /****************** Text for the bottle ******************/
 .bottle_container {
 	font-size: 22px;
@@ -55,11 +40,6 @@ header {
 /* Spacing between the two transformed arrows */
 .left_down_arrow, .right_down_arrow {
 	padding: 0 50px;
-}
-
-/*************** Footer *****************/
-footer {
-
 }
 
 

@@ -1,0 +1,21 @@
+/************* Header *************/
+
+header {
+	background-color: #ebd8c6;
+	height: 10vh;
+}
+
+/************* Logo **************/
+.r_logo {
+	color : green;
+}
+
+.three_logo {
+	color: blue;
+}
+
+/*************** Footer *****************/
+footer {
+	background-color: #ebd8c6;
+	height: 10vh;
+}
