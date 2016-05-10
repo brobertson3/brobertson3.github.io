@@ -20,8 +20,7 @@ h2 {
 /****************** Text for the bottle ******************/
 .bottle_container {
 	font-size: 22px;
-	padding: 5px 250px;
-
+	margin: 10px auto 0 auto;
 }
 
 /****************** Arrows ******************/
