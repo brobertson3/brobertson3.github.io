@@ -41,6 +41,47 @@ h2 {
 	padding: 0 50px;
 }
 
+@-webkit-keyframes arrow_pulse {
+  from {
+  	opacity: 1;
+  } 
+  to {
+  	opacity: .25;
+  }
+}
+@-moz-keyframes arrow_pulse {
+  from {
+  	opacity: 1;
+  } 
+  to {
+  	opacity: .25;
+  }
+}
+@-o-keyframes arrow_pulse {
+  from {
+  	opacity: 1;
+  } 
+  to {
+  	opacity: .25;
+  }
+}
+@keyframes arrow_pulse {
+  from {
+  	opacity: 1;
+  } 
+  to {
+  	opacity: .25;
+  }
+}
+
+#arrow {
+  -webkit-animation: arrow_pulse 1s infinite alternate; /* Safari 4+ */
+  -moz-animation:    arrow_pulse 1s infinite alternate; /* Fx 5+ */
+  -o-animation:      arrow_pulse 1s infinite alternate; /* Opera 12+ */
+  animation:         arrow_pulse 1s infinite alternate; /* IE 10+, Fx 29+ */
+}
+
+
 
 
 
