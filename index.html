@@ -16,6 +16,7 @@
 
 		<!-- Bootstrap scripts -->
 		<script src='http://code.jquery.com/jquery-latest.min.js'></script>
+		<script   src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"   integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="   crossorigin="anonymous"></script>
 		<script type="text/javascript" href="bootstrap/bootstrap.min.js"></script>
 		
 	</head>
@@ -33,7 +34,7 @@
 			<div class="row">
 				<!-- At the top center -->
 				<div class="col-xs-2 col-xs-offset-5 col-md-2 col-md-offset-5">
-					<a><img id="reduce" src="images/recycling_bin.jpg" height="150" ondrop="drop(event)" ondragover="allowDrop(event)"></a>
+					<a><img id="reduce" src="images/recycling_bin.jpg" height="150"></a>
 				</div>
 			</div>
 			<!-- Row 2 -->
@@ -52,7 +53,7 @@
 						<!-- Directly under the tail of the above arrow -->
 						<!-- Define what function to call when this image starts
 						to be dragged. -->
-						<a><img src="images/plastic_bottle.png" height="75" draggable="true" ondragstart="drag(event)"></a>
+						<a><img id="draggable_bottle" src="images/plastic_bottle.png" height="75"></a>
 						<span>a can to start</span>
 					</div>
 				</div>
@@ -70,10 +71,10 @@
 			<!-- Row 5 -->
 			<div class="row">
 				<div class="col-xs-2 col-xs-offset-3 col-md-2 col-md-offset-3 left_bin">
-					<a><img id="reuse" class="float_right" src="images/recycling_bin.jpg" height="150" ondrop="drop(event)" ondragover="allowDrop(event)"></a>
+					<a><img id="reuse" class="float_right" src="images/recycling_bin.jpg" height="150"></a>
 				</div>
 				<div class="col-xs-2 col-xs-offset-2 col-md-2 col-md-offset-2 right_bin">
-					<a><img id="recycle" class="float_left" src="images/recycling_bin.jpg" height="150" ondrop="drop(event)" ondragover="allowDrop(event)"></a>
+					<a><img id="recycle" class="float_left" src="images/recycling_bin.jpg" height="150"></a>
 				</div>
 			</div>
 		</div>
