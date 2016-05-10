@@ -17,8 +17,7 @@
 		<!-- Bootstrap scripts -->
 		<script src='http://code.jquery.com/jquery-latest.min.js'></script>
 		<script type="text/javascript" href="bootstrap/bootstrap.min.js"></script>
-		<!-- My scripts -->
-		<script type="text/javascript" href="js/index.js"></script>
+		
 	</head>
 
 	<body>
@@ -34,7 +33,7 @@
 			<div class="row">
 				<!-- At the top center -->
 				<div class="col-xs-2 col-xs-offset-5 col-md-2 col-md-offset-5">
-					<a><img src="images/recycling_bin.jpg" height="150"></a>
+					<a><img id="reduce" src="images/recycling_bin.jpg" height="150" ondrop="drop(event)" ondragover="allowDrop(event)"></a>
 				</div>
 			</div>
 			<!-- Row 2 -->
@@ -51,7 +50,9 @@
 					<div class="bottle_text">
 						<span>Drag the bottle to</span>
 						<!-- Directly under the tail of the above arrow -->
-						<a><img src="images/plastic_bottle.png" height="75"></a>
+						<!-- Define what function to call when this image starts
+						to be dragged. -->
+						<a><img src="images/plastic_bottle.png" height="75" draggable="true" ondragstart="drag(event)"></a>
 						<span>a can to start</span>
 					</div>
 				</div>
@@ -69,10 +70,10 @@
 			<!-- Row 5 -->
 			<div class="row">
 				<div class="col-xs-2 col-xs-offset-3 col-md-2 col-md-offset-3 left_bin">
-					<a><img class="float_right" src="images/recycling_bin.jpg" height="150"></a>
+					<a><img id="reuse" class="float_right" src="images/recycling_bin.jpg" height="150" ondrop="drop(event)" ondragover="allowDrop(event)"></a>
 				</div>
 				<div class="col-xs-2 col-xs-offset-2 col-md-2 col-md-offset-2 right_bin">
-					<a><img class="float_left" src="images/recycling_bin.jpg" height="150"></a>
+					<a><img id="recycle" class="float_left" src="images/recycling_bin.jpg" height="150" ondrop="drop(event)" ondragover="allowDrop(event)"></a>
 				</div>
 			</div>
 		</div>
@@ -80,6 +81,9 @@
 		<footer class="container-fluid">
 			<h3>Complete Each Lesson!!!</h3>
 		</footer>
+
+		<!-- My scripts -->
+		<script type="text/javascript" src="js/index.js"></script>
 	</body>
 
 </html>
