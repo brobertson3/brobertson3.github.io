@@ -1,9 +1,3 @@
-<!--
-	Hi Brent!  I added feedback about your code in inline HTML comments.
-
-	Overall, nice job so far!  I really like what you have.  More comments below.
--->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,39 +9,12 @@
 		<title>ReThree</title>
 
 		<!-- Bootstrap stylesheets -->
-<<<<<<< HEAD
-		<!--
-			Order matters with the bootstrap stylesheets.  You should list bootstrap.min.css first, then
-			bootstrap-theme.min.css.  The bootstrap.min.css file has the base Bootstrap styles; the theme
-			CSS file has additional styles that build on top of base Bootstrap.  Loading these files out of order
-			could cause some of the theme-specific styles to be overwritten by the base styles.
-
-			That being said, unless you have a very specific reason to use the theme CSS, I wouldn't include it.
-			It just adds more styles and is really for people who do not want to be too specific about their own 
-			site design.   You will probably end up overwriting a lot of the styles in your own stylesheets
-		-->
-		<link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css">
-=======
->>>>>>> brobertson3/master
 		<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
 		<!-- My stylesheets -->
-		<!--
-			I love how you are separating out the styles for different components of your site into different
-			CSS files.
-		-->
 		<link rel="stylesheet" type="text/css" href="css/header_footer.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 
 		<!-- Bootstrap scripts -->
-<<<<<<< HEAD
-		<!--
-			Another file order comment.  Bootstrap requires jQuery, so the line calling jQuery needs to
-			come before Bootstrap.
-		-->
-		<script type="text/javascript" href="bootstrap/bootstrap.min.js"></script>
-		<!-- My scripts -->
-=======
->>>>>>> brobertson3/master
 		<script src='http://code.jquery.com/jquery-latest.min.js'></script>
 		<script   src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"   integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="   crossorigin="anonymous"></script>
 		<script type="text/javascript" href="bootstrap/bootstrap.min.js"></script>
@@ -56,22 +23,6 @@
 
 	<body>
 		<header class="container-fluid">
-			<!--
-				I totally see what youa re doing here with the different styles in your site name.
-				Good solution, but if you would like to do this without so much markup (without the 
-				<span> tags), you can call out the first letter of text in any element with the
-				:first-letter pseudo-selector in CSS.  For example:
-
-				h1 {
-					color: red;
-				}
-
-				h1:first-letter {
-					color: blue
-				}
-
-				Take a look at: http://www.w3schools.com/cssref/sel_firstletter.asp
-			-->
 			<h1><span class="r_logo">R</span><span class="three_logo">3</span></h1>
 		</header>
 
@@ -128,11 +79,6 @@
 		</div>
 
 		<footer class="container-fluid">
-			<!--
-				Semantically, this really is not a heading, in that it does not really have sub-content
-				under it.  You can probably use a <p> tag here with a class and style it however you 
-				would like.
-			-->
 			<h3>Complete Each Lesson!!!</h3>
 		</footer>
 
