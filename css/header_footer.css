@@ -19,3 +19,7 @@ footer {
 	background-color: #ebd8c6;
 	height: 10vh;
 }
+
+body {
+	min-height: 960px;
+}

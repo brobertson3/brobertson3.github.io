@@ -17,6 +17,26 @@ h2 {
 	text-align: left;
 }
 
+.interaction_container {
+  height: 80vh;
+}
+
+img {
+  height: 100%;
+}
+
+.can_image_container {
+  height: 15vh;
+}
+
+.arrow_image_container {
+  height: 10vh;
+}
+
+.bottle_image_container {
+  height: 10vh;
+}
+
 /****************** Text for the bottle ******************/
 .bottle_container {
 	font-size: 22px;
@@ -26,14 +46,14 @@ h2 {
 /****************** Arrows ******************/
 .left_down_arrow img {
 	-ms-transform: rotate(225deg); /* IE 9 */
-    -webkit-transform: rotate(225deg); /* Chrome, Safari, Opera */
-    transform: rotate(225deg);
+  -webkit-transform: rotate(225deg); /* Chrome, Safari, Opera */
+  transform: rotate(225deg);
 }
 
 .right_down_arrow img{
 	-ms-transform: rotate(135deg); /* IE 9 */
-    -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
-    transform: rotate(135deg);
+  -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
+  transform: rotate(135deg);
 }
 
 /* Spacing between the two transformed arrows */
