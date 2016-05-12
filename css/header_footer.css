@@ -17,9 +17,34 @@ header {
 /*************** Footer *****************/
 footer {
 	background-color: #ebd8c6;
-	height: 10vh;
+
+    /* 
+        I am not sure if this is quite the look you are going for, but if you 
+        position the footer absolutely to the bottom, it will stay at the bottom
+        of the page, regardless of the page size.
+    */
+
+    /*
+        I commented out the height because it does not really help you with positioning
+        the footer to the bottom of the page.  Sorry - I think I was misinterpreting
+        when we spoke on Tuesday.
+    */
+	/*height: 10vh;*/
+
+    position: absolute;
+    bottom: 0;
+    /* 
+        When positioning anything absolutely, you need to set the width, especially
+        if you want the element to go all the way across the screen.
+    */
+    width: 100%;
 }
 
 body {
+    /* 
+        With the changes to the footer above, you can probably get rid of the min-height,
+        since that is just making the page longer than it needs to be.  This line basically
+        tells the page that it must be at least 960px tall
+    */
 	min-height: 960px;
 }

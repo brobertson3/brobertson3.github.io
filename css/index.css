@@ -1,4 +1,10 @@
 /***************** General *******************/
+
+/*
+    If these rules for your <body> tag will be common to all of your pages, it is more efficient to
+    include it in a CSS file that you will include in all of your HTML files - i.e. header_footer.css
+    or a new global.css file.
+*/
 body {
 	text-align: center;
 }
@@ -7,6 +13,10 @@ h2 {
 	margin: 30px auto;
 }
 
+/*
+    Bootstrap comes with a bunch of helper classes, including some to float left and right.
+    Take a look at: http://getbootstrap.com/css/#helper-classes-floats
+*/
 .float_left {
 	float: left;
 	text-align: right;
