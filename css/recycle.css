@@ -1,0 +1,5 @@
+.re_pane:before {
+	background: url("http://www.recyclingsuperguide.com/wp-content/themes/thesis/rotator/recycle-boy.jpg") no-repeat;
+	background-position: cover;
+	background-size: 100% 100%;
+}

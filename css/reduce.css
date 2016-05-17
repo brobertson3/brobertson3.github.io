@@ -1,0 +1,5 @@
+.re_pane:before {
+	background: url("http://assets.climatecentral.org/images/made/09_21_2015_Bobby_Magill_CC_Landfill_2_1050_788_s_c1_c_c.jpg") no-repeat;
+	background-position: cover;
+	background-size: 100% 100%;
+}

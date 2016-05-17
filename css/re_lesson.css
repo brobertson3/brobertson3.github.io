@@ -10,3 +10,26 @@ body {
 	line-height: 80vh;
 	margin: 0;
 }
+
+/****************** Styling the re_pane image ********************/
+.re_pane {
+	position: relative;
+}
+/* higher z-index in order to make it come to the front
+   relative positioning also makes it not inherit transparency */
+h2 {
+	z-index: 2;
+	position: relative;
+}
+
+/* Position before in order to get only the background tranparent */
+.re_pane:before {
+	content: "";
+	opacity: 0.5;
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
