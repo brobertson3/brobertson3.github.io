@@ -2,12 +2,12 @@ body {
 	text-align: center;
 }
 
-/*.content_row {
-	height: 80vh;
-}*/
+.content_row {
+	height: 90vh;
+}
 
 .center_vert {
-	line-height: 80vh;
+	line-height: 90vh;
 	margin: 0;
 }
 
@@ -34,18 +34,15 @@ h2 {
 	right: 0;
 }
 
-/****************** Glyphicons ****************/
+/***************** Glyphicons *****************/
 
 .chevron_container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 80vh;
 }
 
-.carousel-inner ul{
-	list-style: none;
-}
+/****************** Carousel ******************/
 
 .carousel-inner li, .carousel-inner p {
 	font-size: 2rem;
@@ -67,3 +64,18 @@ background-image: linear-gradient(to right, rgba(0,0,0,0.0001) 0, rgba(44,139,22
 background-repeat: repeat-x;
 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1)
 }
+
+#myCarousel {
+	height: 90vh;
+	padding: 0 15%;
+}
+
+.carousel-indicators li{
+	background-color: #FFF;
+	box-shadow: 1px 1px 1px 1px rgba(44,139,222,1.0); 
+}
+
+.carousel-indicators .active {
+	background-color: #2C8BDE;
+}
+

@@ -14,12 +14,18 @@
     from {
     	margin-left: 100%;
     	margin-right: 0%;
-    	transform: rotate(0deg);
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    	transform: rotate(360deg);
     }
     to {
     	margin-right: 100%;
     	margin-left: 0%;
-    	transform: rotate(360deg);
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    	transform: rotate(0deg);
     }
 }
 
@@ -27,19 +33,21 @@
 	height: 200px;
 	width: 200px;
 	background-color: red;
-	margin-left: 500px;
 	border-radius: 200px;
     animation-name: rolling_circle;
     animation-duration: 10s;
+    margin-top: 100px;
 }
 
 .congrats_banner:before {
     content: "Congratulations";
+    font-size: 2rem;
 }
 
 .congrats_banner {
 	margin: 0 auto;
     display: block;
+    text-align: center;
 	line-height: 200px;
 	animation-name: rolling_banner;
 	animation-duration: 10s;

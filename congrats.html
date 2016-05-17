@@ -16,25 +16,31 @@
 
 		<!-- Bootstrap scripts -->
 		<script src='http://code.jquery.com/jquery-latest.min.js'></script>
-		<script type="text/javascript" href="bootstrap/bootstrap.min.js"></script>
-		<!-- My scripts -->
-		<script type="text/javascript" href="js/congrats.js"></script>
+		<script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
 	</head>
 
 	<body>
-		<header class="container-fluid">
-			<h1><span class="r_logo">R</span><span class="three_logo">3</span></h1>
-		</header>
+		<!-- New navigation header for the site -->
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+		    	<div class="navbar-header">
+		      		<a class="navbar-brand" href="#">
+		        		<img class="brand_logo" alt="Brand" src="https://9to5google.files.wordpress.com/2015/04/mrjingles_earth_day_1.gif">
+		      		</a>
+		    	</div>
+		    	<p class="navbar-text navbar-left logo_text"><span class="re_logo">Re</span><span class="three_logo">Three</span></p>
+		    	<a><button type="button" id="home_button" class="btn btn-default navbar-btn navbar-right navbar-link">Home Page</button></a>
+		  	</div>
+		</nav>
 
-		<div class="container-fluid">
+		<div class="container-fluid big_container">
 			<div class="animation_container">
 				<span class="congrats_banner"></span>
 			</div>
 		</div>
 
-		<footer class="container-fluid">
-			<h3>Go Back Home</h3>
-		</footer>
+		<!-- My scripts -->
+		<script type="text/javascript" src="js/congrats.js"></script>
 	</body>
 
 </html>

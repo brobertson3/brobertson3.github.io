@@ -18,8 +18,7 @@
 		<!-- Bootstrap scripts -->
 		<script src='http://code.jquery.com/jquery-latest.min.js'></script>
 		<script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
-		<!-- My scripts -->
-		<script type="text/javascript" src="js/reuse.js"></script>
+		
 	</head>
 
 	<body>
@@ -28,39 +27,77 @@
 			<div class="container-fluid">
 		    	<div class="navbar-header">
 		      		<a class="navbar-brand" href="#">
-		        		<img alt="Brand" src="...">
+		        		<img class="brand_logo" alt="Brand" src="https://9to5google.files.wordpress.com/2015/04/mrjingles_earth_day_1.gif">
 		      		</a>
 		    	</div>
 		    	<p class="navbar-text navbar-left logo_text"><span class="re_logo">Re</span><span class="three_logo">Three</span></p>
-		    	<a><button type="button" class="btn btn-default navbar-btn navbar-right navbar-link">Home Page</button></a>
+		    	<a><button type="button" id="home_button" class="btn btn-default navbar-btn navbar-right navbar-link">Home Page</button></a>
 		  	</div>
 		</nav>
 
+		
 		<div class="container-fluid">
 			<!-- Make the content section of the page a single row -->
 			<div class="row content_row">
 				<div class="col-md-4 re_pane">
 					<h2 class="center_vert">Reuse</h2>
 				</div>
-				<!-- Back Button -->
-				<div class="col-md-1 chevron_container">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				</div>
-				<!-- Content container -->
-				<div class="col-md-6">
-					<!-- Insert the content here -->
-					Content
-				</div>
-				<!-- Forward Button -->
-				<div class="col-md-1 chevron_container">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+
+
+				<div class="col-md-8 carousel_container">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+					  	<!-- Indicators -->
+					  	<ol class="carousel-indicators">
+					    	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					    	<li data-target="#myCarousel" data-slide-to="1"></li>
+					    	<li data-target="#myCarousel" data-slide-to="2"></li>
+					  	</ol>
+
+					  	<!-- Wrapper for slides -->
+					  	<div class="carousel-inner" role="listbox">
+					    	<div class="item active">
+					    		<h3>What Is It?</h3>
+					     	 	<p>Repurposing used items as opposed to disposing of them.</p>
+					    	</div>
+					    	<div class="item">
+					    		<h3>Why It's Important</h3> 
+					    		<p>This method has practically the same benefits as reducing. By reusing items, you produce less waste, which save natural resources.</p>
+					    	</div>
+				    		<div class="item">
+				    			<h3>Ways To Do It</h3>
+				      			<ul>
+				      				<li>
+				      					Invest in reusable items
+				      				</li>
+				      				<li>
+				      					Donate items and buy used
+				      				</li>
+				      				<li>Repair before replacing</li>
+				      				<li>Repurpose things around the house. <a href="http://www.boredpanda.com/creative-reuse-upcycling-repurposing-ideas/">This link</a> knows what I'm talking about.</li>
+				      			<ul>
+				    		</div>
+				  		</div>
+
+				  		<!-- Left and right controls -->
+				  		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				    		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    		<span class="sr-only">Previous</span>
+				  		</a>
+				  		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				    		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    		<span class="sr-only">Next</span>
+				  		</a>
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<footer class="container-fluid">
-			<h3>Go Back Home</h3>
+			
 		</footer>
+
+		<!-- My scripts -->
+		<script type="text/javascript" src="js/re_lesson.js"></script>
 	</body>
 
 </html>

@@ -21,10 +21,15 @@
 	font-size: 1.8rem;
 }
 
+.brand_logo {
+	min-height: 35px;
+	max-height: 35px;
+}
+
 /*************** Footer *****************/
 footer {
 	/*background-color: #ebd8c6;*/
-	height: 10%;
+	/*height: 10%;*/
 	/*position: absolute;
 	bottom: 0;*/
 	width: 100%;

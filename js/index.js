@@ -1,5 +1,15 @@
 $(document).ready(function () {
 	
+	/* Check if the lessons are completed */
+	// Retrieve
+	if (localStorage.getItem("recycle.html") == "true") {
+		console.log("Recycle done");
+	} if (localStorage.getItem("reduce.html") == "true") {
+		console.log("Reduce done");
+	} if (localStorage.getItem("reuse.html") == "true") {
+		console.log("Reuse done");
+	}
+
 	/* Need to initialize all popovers here */
   	$(function () {
  		$('[data-toggle="popover"]').popover();
