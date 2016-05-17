@@ -1,13 +1,14 @@
 $(document).ready(function () {
 	
- //  	$(function () {
- // 		$('[data-toggle="popover"]').popover();
-	// });
+	/* Need to initialize all popovers here */
+  	$(function () {
+ 		$('[data-toggle="popover"]').popover();
+	});
 	
 
 	/* Makes the bottle draggable */
 	$('#draggable_bottle').draggable({
-		containment: 'div.container-fluid', //contain in this container so won't mess up ui
+		containment: 'div.interaction_container', //contain in this container so won't mess up ui
 		cursor: 'move',
 		stack: '#draggable_bottle'
 	}); // going to snap to middle later http://stackoverflow.com/questions/11388679/how-do-i-force-jquery-to-center-an-element-when-it-is-dragged-to-and-snapped-to

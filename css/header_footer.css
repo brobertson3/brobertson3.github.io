@@ -1,17 +1,24 @@
 /************* Header *************/
 
-header {
-	background-color: #D1D1D1;
-	height: 10%;
+.navbar-right {
+	margin-right: 2%;
+}
+
+.navbar-default {
+	margin-bottom: 0;
 }
 
 /************* Logo **************/
-.r_logo {
-	color: #2C8BDE;
+.re_logo {
+	color: #459806;
 }
 
 .three_logo {
 	color: #2C8BDE;
+}
+
+.logo_text {
+	font-size: 1.8rem;
 }
 
 /*************** Footer *****************/
@@ -25,4 +32,8 @@ footer {
 
 body {
 	/*min-height: 960px;*/
+}
+
+a {
+	cursor: pointer;
 }

@@ -18,16 +18,23 @@
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
-		<script type="text/javascript" href="bootstrap/bootstrap.min.js"></script>
+		<script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
 		
 	</head>
 
 	<body>
-		<header class="container-fluid">
-			<h1><span class="r_logo">R</span><span class="three_logo">3</span></h1>
-		</header>
 
-		<!-- <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" data-placement="right" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> -->
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+		    	<div class="navbar-header">
+		      		<a class="navbar-brand" href="#">
+		        		<img alt="Brand" src="...">
+		      		</a>
+		    	</div>
+		    	<p class="navbar-text navbar-left logo_text"><span class="re_logo">Re</span><span class="three_logo">Three</span></p>
+		    	<a><button type="button" class="btn btn-default navbar-btn navbar-right navbar-link">Home Page</button></a>
+		  	</div>
+		</nav>
 
 		<!-- This div will contain all of the goodness involving the interactive graphics -->
 		<div class="container-fluid interaction_container">
@@ -37,8 +44,7 @@
 			<div class="row">
 				<!-- At the top center -->
 				<div class="can_image_container col-xs-2 col-xs-offset-5 col-md-2 col-md-offset-5">
-					
-					<a><img id="reduce" src="images/recycling_bin.jpg"></a>
+					<a><img id="reduce" src="images/recycling_bin.jpg" data-placement="right" data-toggle="popover" data-placement="right" title="Reduce" data-content="Learn how to limit the amount of waste you produce."></a>
 				</div>
 			</div>
 			<!-- Row 2 -->
@@ -75,10 +81,10 @@
 			<!-- Row 5 -->
 			<div class="row">
 				<div class="can_image_container col-xs-2 col-xs-offset-3 col-md-2 col-md-offset-3 left_bin">
-					<a><img id="reuse" class="float_right" src="images/recycling_bin.jpg"></a>
+					<a><img id="reuse" class="float_right" src="images/recycling_bin.jpg" data-placement="left" data-toggle="popover" data-placement="right" title="Reuse" data-content="Learn how to repurpose your used products."></a>
 				</div>
 				<div class="can_image_container col-xs-2 col-xs-offset-2 col-md-2 col-md-offset-2 right_bin">
-					<a><img id="recycle" class="float_left" src="images/recycling_bin.jpg"></a>
+					<a><img id="recycle" class="float_left" src="images/recycling_bin.jpg" data-placement="right" data-toggle="popover" data-placement="right" title="Recycle" data-content="Learn how to send in your used products to be remanufactured."></a>
 				</div>
 			</div>
 		</div>

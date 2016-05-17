@@ -2,9 +2,9 @@ body {
 	text-align: center;
 }
 
-.content_row {
+/*.content_row {
 	height: 80vh;
-}
+}*/
 
 .center_vert {
 	line-height: 80vh;
@@ -32,4 +32,38 @@ h2 {
 	bottom: 0;
 	left: 0;
 	right: 0;
+}
+
+/****************** Glyphicons ****************/
+
+.chevron_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80vh;
+}
+
+.carousel-inner ul{
+	list-style: none;
+}
+
+.carousel-inner li, .carousel-inner p {
+	font-size: 2rem;
+}
+
+.carousel-control.left {
+background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(44,139,222,1.0)), to(rgba(0,0,0,0.0001)));
+background-image: -webkit-linear-gradient(left, color-stop(rgba(44,139,222,1.0) 0), color-stop(rgba(0,0,0,0.0001) 100%));
+background-image: -moz-linear-gradient(left, rgba(44,139,222,1.0) 0, rgba(0,0,0,0.0001) 100%);
+background-image: linear-gradient(to right, rgba(44,139,222,1.0) 0, rgba(0,0,0,0.0001) 100%);
+background-repeat: repeat-x;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1)
+}
+.carousel-control.right {
+background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0,0,0,0.0001)), to(rgba(44,139,222,1.0)));
+background-image: -webkit-linear-gradient(left, color-stop(rgba(0,0,0,0.0001) 0), color-stop(rgba(44,139,222,1.0) 100%));
+background-image: -moz-linear-gradient(left, rgba(0,0,0,0.0001) 0, rgba(44,139,222,1.0) 100%);
+background-image: linear-gradient(to right, rgba(0,0,0,0.0001) 0, rgba(44,139,222,1.0) 100%);
+background-repeat: repeat-x;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1)
 }

@@ -17,15 +17,24 @@
 
 		<!-- Bootstrap scripts -->
 		<script src='http://code.jquery.com/jquery-latest.min.js'></script>
-		<script type="text/javascript" href="bootstrap/bootstrap.min.js"></script>
+		<script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
 		<!-- My scripts -->
-		<script type="text/javascript" href="js/recycle.js"></script>
+		<script type="text/javascript" src="js/recycle.js"></script>
 	</head>
 
 	<body>
-		<header class="container-fluid">
-			<h1><span class="r_logo">R</span><span class="three_logo">3</span></h1>
-		</header>
+		<!-- New navigation header for the site -->
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+		    	<div class="navbar-header">
+		      		<a class="navbar-brand" href="#">
+		        		<img alt="Brand" src="...">
+		      		</a>
+		    	</div>
+		    	<p class="navbar-text navbar-left logo_text"><span class="re_logo">Re</span><span class="three_logo">Three</span></p>
+		    	<a><button type="button" class="btn btn-default navbar-btn navbar-right navbar-link">Home Page</button></a>
+		  	</div>
+		</nav>
 
 		<div class="container-fluid">
 			<!-- Make the content section of the page a single row -->
@@ -33,20 +42,59 @@
 				<div class="col-md-4 re_pane">
 					<h2 class="center_vert">Recycle</h2>
 				</div>
-				<!-- Back Button -->
-				<div class="col-md-1">
-					<div>
-						<a class="center_vert"><img src="images/previous.jpg" height="50"></a>
+
+
+				<div class="col-md-8">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+					  	<!-- Indicators -->
+					  	<ol class="carousel-indicators">
+					    	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					    	<li data-target="#myCarousel" data-slide-to="1"></li>
+					    	<li data-target="#myCarousel" data-slide-to="2"></li>
+					    	<li data-target="#myCarousel" data-slide-to="3"></li>
+					  	</ol>
+
+					  	<!-- Wrapper for slides -->
+					  	<div class="carousel-inner" role="listbox">
+					    	<div class="item active">
+					    		<h3>What Is It?</h3>
+					     	 	<p>A series of steps that takes a used material and processes, remanufactures, and sells it as a new product.</p>
+					    	</div>
+
+				    		<div class="item">
+				    			<h3>Ways To Do It</h3>
+				      			<ul>
+				      				<li>
+				      					Buy and use products made from recycled materials. It'll have a recycling symbol on it.
+				      				</li>
+				      				<li>
+				      					Check collection centers and curbside pickup services to see what they accept.
+				      				</li>
+				      			<ul>
+				    		</div>
+
+				    		<div class="item">
+				    			<h3>What Can Be Recycled?</h3>
+				    			<ul>
+					      			<li>Paper</li>
+					      			<li>Plastic</li>
+					      			<li>Glass</li>
+					      			<li>Food (Compost)</li>
+				      			</ul>
+				      			<p>You can consult <a href="http://www.wm.com/thinkgreen/what-can-i-recycle.jsp">this link</a> for a more exhaustive list</p>
+				    		</div>
+				  		</div>
+
+				  		<!-- Left and right controls -->
+				  		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				    		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    		<span class="sr-only">Previous</span>
+				  		</a>
+				  		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				    		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    		<span class="sr-only">Next</span>
+				  		</a>
 					</div>
-				</div>
-				<!-- Content container -->
-				<div class="col-md-6">
-					<!-- Insert the content here -->
-					Content
-				</div>
-				<!-- Forward Button -->
-				<div class="col-md-1">
-					<a class="center_vert"><img src="images/forward.jpg" height="50"></a>
 				</div>
 			</div>
 		</div>

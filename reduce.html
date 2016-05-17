@@ -17,15 +17,24 @@
 
 		<!-- Bootstrap scripts -->
 		<script src='http://code.jquery.com/jquery-latest.min.js'></script>
-		<script type="text/javascript" href="bootstrap/bootstrap.min.js"></script>
+		<script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
 		<!-- My scripts -->
-		<script type="text/javascript" href="js/reduce.js"></script>
+		<script type="text/javascript" src="js/reduce.js"></script>
 	</head>
 
 	<body>
-		<header class="container-fluid">
-			<h1><span class="r_logo">R</span><span class="three_logo">3</span></h1>
-		</header>
+		<!-- New navigation header -->
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+		    	<div class="navbar-header">
+		      		<a class="navbar-brand" href="#">
+		        		<img alt="Brand" src="...">
+		      		</a>
+		    	</div>
+		    	<p class="navbar-text navbar-left logo_text"><span class="re_logo">Re</span><span class="three_logo">Three</span></p>
+		    	<a><button type="button" class="btn btn-default navbar-btn navbar-right navbar-link">Home Page</button></a>
+		  	</div>
+		</nav>
 
 		<div class="container-fluid">
 			<!-- Make the content section of the page a single row -->
@@ -34,10 +43,8 @@
 					<h2 class="center_vert">Reduce</h2>
 				</div>
 				<!-- Back Button -->
-				<div class="col-md-1">
-					<div>
-						<a class="center_vert"><img src="images/previous.jpg" height="50"></a>
-					</div>
+				<div class="col-md-1 chevron_container">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 				</div>
 				<!-- Content container -->
 				<div class="col-md-6">
@@ -45,8 +52,8 @@
 					Content
 				</div>
 				<!-- Forward Button -->
-				<div class="col-md-1">
-					<a class="center_vert"><img src="images/forward.jpg" height="50"></a>
+				<div class="col-md-1 chevron_container">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 				</div>
 			</div>
 		</div>
