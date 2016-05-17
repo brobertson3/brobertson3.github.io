@@ -1,25 +1,28 @@
 /************* Header *************/
 
 header {
-	background-color: #ebd8c6;
-	height: 10vh;
+	background-color: #D1D1D1;
+	height: 10%;
 }
 
 /************* Logo **************/
 .r_logo {
-	color : green;
+	color: #2C8BDE;
 }
 
 .three_logo {
-	color: blue;
+	color: #2C8BDE;
 }
 
 /*************** Footer *****************/
 footer {
-	background-color: #ebd8c6;
-	height: 10vh;
+	/*background-color: #ebd8c6;*/
+	height: 10%;
+	/*position: absolute;
+	bottom: 0;*/
+	width: 100%;
 }
 
 body {
-	min-height: 960px;
+	/*min-height: 960px;*/
 }
