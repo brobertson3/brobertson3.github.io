@@ -19,7 +19,7 @@ h2 {
 }
 
 .interaction_container {
-  height: 80vh;
+  height: 600px;
 }
 
 img {
@@ -27,15 +27,15 @@ img {
 }
 
 .can_image_container {
-  height: 15vh;
+  height: 90px;
 }
 
 .arrow_image_container {
-  height: 10vh;
+  height: 60px;
 }
 
 .bottle_image_container {
-  height: 10vh;
+  height: 60px;
 }
 
 /****************** Text for the bottle ******************/

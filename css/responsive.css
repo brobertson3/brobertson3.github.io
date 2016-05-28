@@ -1,0 +1,41 @@
+/* For mobile screens */
+@media only screen and (max-width: 991px) {
+	/***** Make the re_pane not take up the entire width of the screen until smaller screen ******/
+	.re_pane {
+		width: 33.333%;
+		float: left;
+	}
+
+	.carousel_container {
+		width: 66.667%;
+		float: right;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	/***** Make the header not drop down to two lines *****/
+	.navbar-header {
+		float: left!important;
+	}
+
+	.navbar-text {
+		float: left!important;
+		margin-right: 15px;
+		margin-left: 30px;
+	}
+
+	#home_button {
+		float: right!important;
+	}
+
+	/***** Make the re_pane and carousel two rows *****/
+	.re_pane, .carousel_container {
+		float: none;
+		width: 100%;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+} 
+
