@@ -1,4 +1,4 @@
-/* For mobile screens */
+/* Smaller than 992*/
 @media only screen and (max-width: 991px) {
 	/***** Make the re_pane not take up the entire width of the screen until smaller screen ******/
 	.re_pane {
@@ -12,6 +12,7 @@
 	}
 }
 
+/* Smaller than 768*/
 @media only screen and (max-width: 767px) {
 	/***** Make the header not drop down to two lines *****/
 	.navbar-header {
@@ -34,8 +35,87 @@
 		width: 100%;
 	}
 
-	h2 {
-		font-size: 2rem;
-	}
 } 
+/* Smaller than 482 */
+@media only screen and (max-width: 481px) {
+	.bottle_container {
+		font-size: 1.1em;
+	}
 
+	h2 {
+		font-size: 1.4em;
+	}
+
+	.re_pane {
+		height: 50%;
+	}
+
+	.carousel_container {
+		height: 50%;
+	}
+
+	#myCarousel {
+		height: 100%;
+	}
+
+	h3 {
+		font-size: 1em;
+		margin-bottom: 75px;
+	}
+
+	ul {
+		margin-bottom: 15px;
+		padding: 0;
+	}
+
+	ul li {
+		list-style-type: none;
+		border-bottom: 1px #2C8BDE solid;
+		padding-bottom: 2.5px;
+		padding-top: 2.5px;
+	}
+
+	.carousel-inner li, .carousel-inner p {
+		font-size: 0.3em;
+	}
+
+	/***** Animation Domination *****/
+
+	.animation_container {
+		height: 100px;
+		width: 100px;
+		border-radius: 100px;
+		text-align: center;
+	}
+
+	.congrats_banner:before {
+	    font-size: 1.5rem;
+	}
+
+	.congrats_banner {
+		line-height: 100px;
+	}
+
+	.home_container {
+	    width: 100%;
+	    float: right;
+	    margin-right: 0;
+	    line-height: 0;
+	    margin-top: 20px;
+	}
+
+	.home_banner {
+	    width: 100%;
+	}
+
+	.home_banner:before {
+	    font-size: 1.5rem;
+	}
+
+	.big_container {
+	    margin: 0 auto;
+	    width: 50%;
+	    min-width: 300px;
+	}
+
+}

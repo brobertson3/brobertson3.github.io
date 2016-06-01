@@ -29,19 +29,34 @@
     }
 }
 
+@keyframes return_home {
+    from {
+        visibility: hidden;
+        margin-left: 100%;
+        margin-right: 0%;
+    }
+    to {
+        margin-left: 0%;
+        margin-right: 100%;
+        visibility: hidden;
+    }
+}
+
 .animation_container {
 	height: 200px;
 	width: 200px;
-	background-color: red;
+	background-color: #2C8BDE;
 	border-radius: 200px;
     animation-name: rolling_circle;
-    animation-duration: 10s;
+    animation-duration: 5s;
     margin-top: 100px;
+    float: left;
+    margin-right: 50px;
 }
 
 .congrats_banner:before {
     content: "Congratulations";
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .congrats_banner {
@@ -50,5 +65,31 @@
     text-align: center;
 	line-height: 200px;
 	animation-name: rolling_banner;
-	animation-duration: 10s;
+	animation-duration: 5s;
+}
+
+.home_container {
+    height: 100px;
+    width: 50%;
+    line-height: 200px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.home_banner {
+    animation-name: return_home;
+    animation-duration: 5s;
+    width: 40%;
+}
+
+.home_banner:before {
+    content: "Click Home Page button to continue";
+    font-size: 2.5rem;
+}
+
+.big_container {
+    margin: 0 auto;
+    width: 50%;
+    min-width: 800px;
 }
