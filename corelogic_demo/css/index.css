@@ -1,0 +1,293 @@
+/*********** General ***********/
+
+body {
+	width: 100%;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	/*font-size: 2.1rem;*/
+}
+
+.wrapper {
+	max-width: 900px;
+	/*text-align: center;*/
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*********** Navigation Bar ***********/
+
+.menu_nav {
+	float: right;
+}
+
+.input-group {
+	/*width: 338px;*/
+	width: 100%;
+	min-width: 200px!important;
+	margin-top: 10px;
+	float: right;
+	/*margin-right: 30px!important;*/
+}
+
+/*.input-group.input-group-sm {
+	min-width: 200px!important;
+}*/
+
+.btn.btn-default.btn-sm.navbar-btn.navbar-right {
+	width: 60px;
+}
+
+p.navbar-text.navbar-right {
+	width: 80px;
+	text-align: center;
+}
+
+.full_nav .navbar-right {
+	margin-right: 0;
+}
+
+.navbar-text {
+	margin-right: 15px!important;
+}
+
+.full_nav {
+    margin-right: 0;
+}
+
+.logo_nav {
+	width: 15%;
+	display: inline-block;
+}
+
+.menu_nav {
+	display: inline-block;
+	width: 50%;
+	margin-right: 0;
+}
+
+.logo_nav {
+	margin-left: 5px;
+	padding-top: 10px;
+}
+
+.menu_nav {
+	margin-right: 20px;
+}
+
+.navbar-brand img {
+	width: 121px;
+	height: 37px;
+}
+
+/*********** Header Content ***********/
+.header_container {
+	margin-top: 112px;
+	background: url("../img/banners/default-1500x663.jpg") 100% 100% no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding: 50px 0 46px 0;
+}
+
+.services_description button {
+	margin-top: 15px;
+}
+
+.header_content_width {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.header_container h1 {
+	border-bottom: solid #fff 2px;
+	display: inline-block;
+	width: 40%;
+	padding-bottom: 20px;
+	margin-left: 10%;
+}
+
+.header_left_container {
+  	display: inline-block;
+  	width: 60%;
+  	/*border-top: solid #fff 2px;*/
+}
+
+.header_right_container {
+	display: inline-block;
+	width: 40%;
+	margin-left: -4px;
+	vertical-align: top;
+	padding-top: 55px;
+	text-align: center;
+}
+
+#video_icon {
+	color: #fff;
+}
+
+#data_service_icon {
+	/*background: url("../img/sprite_home_01.png") -323px -471px no-repeat;*/
+	/*background-size: 100% 100%;*/
+}
+
+#analytics_service_icon {
+
+}
+
+#services_service_icon {
+
+}
+
+#technology_service_icon {
+
+}
+
+
+/* Add some padding in here */
+.service_icon {
+	width: 50%;
+	height: 100px;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	padding-top: 26px;
+}
+
+.service_title {
+	padding-top: 5px;
+}
+
+.services_row_1 a:nth-child(2), .services_row_2 a:nth-child(2) {
+	margin-left: -4px;
+}
+
+.services_description {
+	margin-bottom: 60px;
+	margin-left: 10%;
+	margin-top: 30px;
+}
+
+.services_container a:hover, .header_right_container a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: inherit;
+}
+
+/*********** Research and Events Section ***********/
+.header_card {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	margin-left: 0;
+}
+
+.header_card img {
+	border: solid #fff 5px;
+	border-radius: 0.2em;
+	margin-bottom: 20px;
+}
+
+.header_card:nth-of-type(1) {
+	margin-left: 0;
+}
+
+#header_card_1{
+	/*background: url("../img/pods/pod-condosafe-infographic.jpg") 100% 100% no-repeat;*/
+}
+
+/*********** Research and Events Section ***********/
+.panel-body {
+	display: inline-block;
+}
+
+.panel {
+	margin-bottom: 5px;
+}
+
+.date_panel {
+	background-color: #eaeaea;
+	color: #6e6259;
+}
+
+.research_container, .events_container {
+	display: block;
+	width: 70%;
+	margin: 50px auto 30px auto;
+}
+
+.research_container h3, .events_container h3 {
+	margin-bottom: 30px;
+}
+
+.research_container p, .events_container p {
+	margin-top: 20px;
+}
+
+.research_events_container {
+		font-size: 1rem;
+	}
+
+/*********** Footer Section ***********/
+
+footer {
+	background-color: #dad7d0;
+	padding: 60px 25px 56px 25px;
+	color: #85715b;
+	font-size: 0.9rem;
+}
+
+.footer_logo_column {
+	vertical-align: top;
+	display: inline-block;
+	width: 34%;
+}
+
+.footer_column {
+	width: 22%;
+	display: inline-block;
+	margin: -4px;
+	vertical-align: top;
+}
+
+.footer_logo_column img {
+	margin-bottom: 10px;
+	height: 37px;
+	width: 121px;
+}
+
+.footer_logo_column li {
+	font-size: 1.6rem;
+	display: inline-block;
+}
+
+.footer_logo_column ul {
+	padding-left: 0;
+}
+
+.footer_column ul, .footer_logo_column ul {
+	list-style-type: none;
+}
+
+.footer_column li {
+	margin: 15px auto;
+}
+
+ .footer_column a, .footer_logo_column a {
+	text-decoration: none;
+	color: #85715b;
+ }
+
+.footer_column a:hover, .footer_logo_column a:hover, 
+.footer_column a:active, .footer_logo_column a:active,
+.footer_column a:focus, .footer_logo_column a:focus {
+	color: #e22d33;
+	cursor: pointer;
+ }
